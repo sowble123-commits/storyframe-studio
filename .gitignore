@@ -1,0 +1,4 @@
+.env
+NeoSystem_Backups/
+__pycache__/
+*.log
