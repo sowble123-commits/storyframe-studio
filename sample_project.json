@@ -1,0 +1,70 @@
+{
+  "id": "p001",
+  "title": "Sample Story Project",
+  "description": "테스트용 프로젝트입니다.",
+  "sequences": [
+    {
+      "id": "seq01",
+      "name": "Opening Sequence",
+      "order": 1,
+      "scenes": [
+        {
+          "id": "scene01",
+          "name": "Intro Scene",
+          "order": 1,
+          "shots": [
+            {
+              "id": "shot01",
+              "name": "Shot 1",
+              "order": 1,
+              "image": "https://via.placeholder.com/400x250?text=Shot+1",
+              "description": "오프닝 컷입니다."
+            },
+            {
+              "id": "shot02",
+              "name": "Shot 2",
+              "order": 2,
+              "image": "https://via.placeholder.com/400x250?text=Shot+2",
+              "description": "두 번째 컷."
+            }
+          ]
+        },
+        {
+          "id": "scene02",
+          "name": "Main Scene",
+          "order": 2,
+          "shots": [
+            {
+              "id": "shot03",
+              "name": "Shot 3",
+              "order": 1,
+              "image": "https://via.placeholder.com/400x250?text=Shot+3",
+              "description": "메인 씬 컷."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seq02",
+      "name": "Ending Sequence",
+      "order": 2,
+      "scenes": [
+        {
+          "id": "scene03",
+          "name": "Final Scene",
+          "order": 1,
+          "shots": [
+            {
+              "id": "shot04",
+              "name": "Shot 4",
+              "order": 1,
+              "image": "https://cdn.midjourney.com/9d281f0c-76de-4cde-aefd-b6f8963bc2ef/0_1.png",
+              "description": "엔딩 장면."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

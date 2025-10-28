@@ -1,4 +1,55 @@
 {
+  // 🐍 Python 가상환경
   "python.defaultInterpreterPath": "C:\\Users\\YuBin2\\OneDrive\\Desktop\\storyframe-studio\\venv\\Scripts\\python.exe",
-  "python.terminal.activateEnvironment": true
+  "python.terminal.activateEnvironment": true,
+  // 🎨 Tailwind CSS 설정
+  "css.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "javascript",
+    "typescriptreact": "javascript",
+    "plaintext": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  // 💅 에디터 스타일
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderWhitespace": "selection",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  // ⚡ TypeScript / JavaScript
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // 📦 파일 & 저장
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // 🧠 자동완성
+  "emmet.includeLanguages": {
+    "typescriptreact": "html",
+    "javascriptreact": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  // 🌙 UI / 테마
+  "workbench.colorTheme": "Default Dark Modern",
+  "window.autoDetectColorScheme": false,
+  "workbench.iconTheme": "vs-seti",
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+  "cSpell.words": ["conti", "storyframe", "storyboard"]
 }
